@@ -1,0 +1,13 @@
+{
+  "name": "narrated-video-context",
+  "version": "1.0.0",
+  "description": "Turn a narrated phone video into agent context: aligned transcript, stills at marked or spoken moments, referenced inline.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "repository": "https://github.com/danielrosehill/Narrated-Video-To-Agent-Context",
+  "license": "MIT",
+  "keywords": ["video", "transcription", "word-timestamps", "frame-extraction", "agent-context", "walkthrough", "whisper"]
+}

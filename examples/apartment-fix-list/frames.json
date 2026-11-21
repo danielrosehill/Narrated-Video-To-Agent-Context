@@ -1,0 +1,20 @@
+{
+  "format": "narrated-frame-context",
+  "version": 1,
+  "title": "Apartment fix list: walkthrough 2026-11-21",
+  "purpose": "things to fix or clean in the apartment",
+  "source": {"video": "input/clip.mp4", "duration": 11.79, "recorded_at": "2026-11-21T14:30:05+02:00"},
+  "mode": "marked",
+  "transcription": {"backend": "openai", "model": "whisper-1", "language": "en"},
+  "frames": [
+    {"id": "F001", "file": "frames/F001.jpg", "t": 3.4, "anchor": 3.2, "origin": "mark", "mark_n": 1,
+     "quote": "We need a new printer cable here.", "caption": "office printer area, test pattern labelled OFFICE PRINTER",
+     "sharpness": 556.7, "reviewed": true},
+    {"id": "F002", "file": "frames/F002.jpg", "t": 8.0, "anchor": 8.0, "origin": "mark", "mark_n": 2,
+     "quote": "Over in the kitchen, the tap is dripping and needs a new washer.", "caption": "kitchen, colour bars labelled KITCHEN TAP",
+     "sharpness": 474.0, "reviewed": true},
+    {"id": "F003", "file": "frames/F003.jpg", "t": 10.2, "anchor": 11.0, "origin": "mark", "mark_n": 3,
+     "quote": "And in the bathroom, the mirror light is broken.", "caption": "bathroom, SMPTE bars labelled BATHROOM MIRROR",
+     "sharpness": 265.3, "reviewed": true}
+  ]
+}

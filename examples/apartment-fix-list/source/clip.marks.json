@@ -1,0 +1,16 @@
+{
+  "format": "narrated-video-marks",
+  "version": 1,
+  "video": "clip.mp4",
+  "recorded_at": "2026-11-21T14:30:05+02:00",
+  "complete": true,
+  "duration": 11.79,
+  "clock": "recorded-duration",
+  "capture": {"width": 1280, "height": 720, "rotation_degrees": 0},
+  "app": {"id": "synthetic-example", "version": "0"},
+  "marks": [
+    {"n": 1, "t": 3.2, "wall": "2026-11-21T14:30:08.2+02:00"},
+    {"n": 2, "t": 8.0, "wall": "2026-11-21T14:30:13.0+02:00"},
+    {"n": 3, "t": 11.0, "wall": "2026-11-21T14:30:16.0+02:00"}
+  ]
+}
