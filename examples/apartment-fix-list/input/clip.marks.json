@@ -6,7 +6,7 @@
   "complete": true,
   "duration": 11.79,
   "clock": "recorded-duration",
-  "capture": {"width": 1280, "height": 720, "rotation_degrees": 0},
+  "capture": {"quality": "HD", "target_rotation_degrees": 0},
   "app": {"id": "synthetic-example", "version": "0"},
   "marks": [
     {"n": 1, "t": 3.2, "wall": "2026-11-21T14:30:08.2+02:00"},

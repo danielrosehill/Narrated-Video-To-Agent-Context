@@ -22,7 +22,7 @@ volume key) while recording. The consumer (the `narrated-video-context` plugin, 
   "complete": true,
   "duration": 94.21,
   "clock": "recorded-duration",
-  "capture": {"width": 1280, "height": 720, "rotation_degrees": 90},
+  "capture": {"quality": "HD", "target_rotation_degrees": 90},
   "app": {"id": "com.danielrosehill.narratedvideomarker", "version": "1.0"},
   "marks": [
     {"n": 1, "t": 12.48, "wall": "2026-11-21T14:30:17.6+02:00"},
@@ -39,7 +39,7 @@ volume key) while recording. The consumer (the `narrated-video-context` plugin, 
 | `complete` | `false` while recording or if the app died. Marks up to that point are still valid. |
 | `duration` | Seconds, as reported by the recorder at the end. `null` if incomplete. |
 | `clock` | `recorded-duration`: `t` is seconds of recorded media from the start of the file, i.e. the same timeline as the video's presentation timestamps. |
-| `capture` | Encoder resolution as the sensor delivers it, before rotation. `rotation_degrees` is the rotation written into the MP4. |
+| `capture` | Requested CameraX quality (`HD` = 720p, or the nearest available) and the rotation set for the recording. Read the real resolution from the video with `ffprobe`. |
 | `marks[].n` | 1-based, in order. Undone marks are removed and the rest are not renumbered. |
 | `marks[].t` | Seconds into the video when the mark was pressed, to the millisecond. |
 | `marks[].wall` | Wall-clock time of the press. For information only; use `t`. |
